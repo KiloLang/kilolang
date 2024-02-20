@@ -1,7 +1,12 @@
+# Workspace Ignores:
+.vscode/
+build/
+
+# CMake Ignores:
 CMakeLists.txt.user
 CMakeCache.txt
-CMakeFiles
-CMakeScripts
+CMakeFiles/
+CMakeScripts/
 Testing
 Makefile
 cmake_install.cmake

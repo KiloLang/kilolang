@@ -1,0 +1,7 @@
+#define preprocessing
+
+#define body
+int main()
+{
+    return 0;
+}
