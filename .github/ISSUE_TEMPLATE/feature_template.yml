@@ -10,7 +10,7 @@ body:
   - type: input
     id: kilo-version
     attributes:
-      label: Act Version
+      label: Kilo Version
       description: |
         What version of `kilo` are you using? Version can be obtained via `kilo --version`
         If you've built it from source, please provide commit hash.
