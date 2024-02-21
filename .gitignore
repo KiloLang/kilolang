@@ -1,6 +1,10 @@
 # Workspace Ignores:
 .vscode/
+.cache/
 build/
+
+# MacOS Ignores:
+.DS_Store
 
 # CMake Ignores:
 CMakeLists.txt.user
