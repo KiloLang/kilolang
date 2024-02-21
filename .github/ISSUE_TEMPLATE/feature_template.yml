@@ -16,7 +16,7 @@ body:
         If you've built it from source, please provide commit hash.
       placeholder: |
         kilo --version
-    validation:
+    validations:
       required: true
   - type: textarea
     id: feature
