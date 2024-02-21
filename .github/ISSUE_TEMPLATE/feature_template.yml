@@ -1,0 +1,28 @@
+name: Feature Request
+description: Use this template for requesting a feature or improvements.
+labels:
+  - 'kind/features-request'
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please Note: Incompatibility with GitHub Actions should be opened as a bug report, not a new feature.
+  - type: input
+    id: kilo-version
+    attributes:
+      label: Act Version
+      description: |
+        What version of `kilo` are you using? Version can be obtained via `kilo --version`
+        If you've built it from source, please provide commit hash.
+      placeholder: |
+        kilo --version
+    validation:
+      required: true
+  - type: textarea
+    id: feature
+    attributes:
+      label: Feature Description
+      description: Describe the feature you would like to see.
+      placeholder: ...
+    validations:
+      required: true
