@@ -20,16 +20,16 @@
 <div>
 
 <!-- TABLE OF CONTENTS -->
-<details>
+<details align="left">
     <summery>Table of Contents</summery>
-    <ol>
-        <li>
+    <ol align="left">
+        <li align="left">
             <a href="#about-the-project">About The Project</a>
             <ul>
                 <li><a href="#built-with">Built With</a></li>
             </ul>
         </li>
-        <li>
+        <li align="left">
             <a href="#getting-started">Getting Started</a>
             <ul>
                 <li><a href="#prerequisites">Prerequisites</a></li>
